@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: none;
+    margin: auto;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-text {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    /* identical to box height, or 90% */
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+#guest-text {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    /* identical to box height, or 90% */
+    text-align: center;
+
+    color: #EEEEEE;
+
+
+}
+
+#home-score-container {
+    margin-top: 38px;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #000;
+}
+
+#home-score {
+    color: #fff;
+    font-size: 50px;
+    margin: 32px 45px 20px 64px;
+    font-weight: 400;
+    color: #F94F6D;
+    font-family: 'alarm clock', sans-serif;
+    /* text-align: center; */
+    /*font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    /* or 141% 
+    text-align: center;
+
+    color: #F94F6D; */
+
+
+}
+
+#guest-score-container {
+    margin-top: 38px;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #000;
+}
+
+#guest-score {
+    color: #fff;
+    font-size: 50px;
+    margin: 32px 45px 20px 64px;
+    font-weight: 400;
+    color: #F94F6D;
+    font-family: 'alarm clock', sans-serif;
+    /* text-align: center; */
+    /*font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    /* or 141% 
+    text-align: center;
+
+    color: #F94F6D; */
+
+
+}
+
+#home-btns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+#add1-btn {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'alarm clock', sans-serif;
+}
+
+#add2-btn {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'alarm clock', sans-serif;
+}
+
+#add3-btn {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'alarm clock', sans-serif;
+}
+
+
+#guest-btns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+}

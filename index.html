@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 id="home-text">HOME</h3>
+                <div id="home-score-container">
+                    <p id="home-score">0</p>
+                    <div id="home-btns">
+                        <button id="add1-btn" onclick="homeAdd1()">+1</button>
+                        <button id="add2-btn" onclick="homeAdd2()">+2</button>
+                        <button id="add3-btn" onclick="homeAdd3()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 id="guest-text">GUEST</h3>
+                <div id="guest-score-container">
+                    <p id="guest-score">0</p>
+                    <div id="guest-btns">
+                        <button id="add1-btn" onclick="guestAdd1()">+1</button>
+                        <button id="add2-btn" onclick="guestAdd2()">+2</button>
+                        <button id="add3-btn" onclick="guestAdd3()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
